@@ -1,0 +1,28 @@
+@import url(./font.css);
+
+/* Removing borders and setting global font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+/* Set images to resize according to div area */
+.image {
+    max-width:100%;
+    max-height:100%;
+}
+
+/* layout css */
+.center-page {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.footer {
+    width: 100%;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
